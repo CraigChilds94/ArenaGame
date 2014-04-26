@@ -1,16 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/// <summary>
+/// Handles management of the networking applications
+/// </summary>
 public class NetworkManager : MonoBehaviour {
 
     public const string version = "0.1";
-    public GameObject spawn;
 
-	/// <summary>
+    private SpawnSpot[] spawns;
+
+    #region Network setup stuff
+    /// <summary>
 	/// Initialise the Network Manager
 	/// </summary>
 	void Start () 
     {
+        spawns = GameObject.FindObjectsOfType<SpawnSpot>();
         Connect();
 	}
 
@@ -21,7 +27,9 @@ public class NetworkManager : MonoBehaviour {
     {
         PhotonNetwork.ConnectUsingSettings(version);
     }
+    #endregion
 
+    #region GUI stuff
     /// <summary>
     /// When the GUI is displayed
     /// </summary>
@@ -29,7 +37,9 @@ public class NetworkManager : MonoBehaviour {
     {
         GUILayout.Label(PhotonNetwork.connectionStateDetailed.ToString());
     }
+    #endregion
 
+    #region Handling server join
     /// <summary>
     /// What happens when a lobby is joined?
     /// </summary>
@@ -56,12 +66,51 @@ public class NetworkManager : MonoBehaviour {
         Debug.Log("Joined a room");
         SpawnMyPlayer();
     }
+    #endregion
+
+    #region Player spawning
 
     /// <summary>
     /// Spawn the player
     /// </summary>
     void SpawnMyPlayer()
     {
-        PhotonNetwork.Instantiate("player", spawn.transform.position, Quaternion.identity, 0);
+        if (spawns == null)
+        {
+            Debug.LogError("There are no spawn locations in this scene.");
+            return;
+        }
+
+        SpawnSpot spawn = getRandSpawn();
+        setupMyPlayer(PhotonNetwork.Instantiate("player", spawn.transform.position, Quaternion.identity, 0));
     }
+
+    /// <summary>
+    /// Get a random (Active) spawn location from the level
+    /// </summary>
+    /// <returns>
+    /// An active spawn location
+    /// </returns>
+    private SpawnSpot getRandSpawn()
+    {
+        SpawnSpot spawn = spawns[Random.Range(0, spawns.Length)];
+        while (!spawn.isActive())
+        {
+            spawn = spawns[Random.Range(0, spawns.Length)];
+        }
+        return spawn;
+    }
+
+    /// <summary>
+    /// Handling enable and disable of local stuff
+    /// </summary>
+    /// <param name="player">An instance of the player</param>
+    private void setupMyPlayer(GameObject player)
+    {
+        // ENABLES
+        player.GetComponent<CharacterMotor>().enabled = true;
+        player.GetComponent<PlatformInputController>().enabled = true;
+        player.GetComponent<AnimationHandle>().enabled = true;
+    }
+    #endregion
 }
