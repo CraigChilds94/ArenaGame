@@ -8,12 +8,14 @@ public class NetworkCharacter : Photon.MonoBehaviour {
 
     public Animator anim;
     public CharacterMotor motor;
+    public GameObject projectileSpawn;
 
     Vector3 realPos = Vector3.zero;
     Quaternion realRot = Quaternion.identity;
     float velocity = 0;
     bool onGround = false, 
-         jumping = false;
+         jumping = false,
+         shoot = false;
 
     /// <summary>
     /// What happens when this is loaded
@@ -28,42 +30,38 @@ public class NetworkCharacter : Photon.MonoBehaviour {
     /// </summary>
 	void Update () 
     {
+
         // if it's  us
         if (photonView.isMine)
         {
-            // do nothing
-            if (!motor.grounded)
-            {
-                if (Input.GetButton("Jump"))
-                {
-                    anim.SetBool("jumping", true);
-                }
-            }
-            else
-            {
-                anim.SetBool("jumping", false);
-            }
-
-            anim.SetFloat("speed", Mathf.Abs(motor.movement.velocity.x));
+            onGround = motor.grounded;
+            jumping = Input.GetButton("Jump");
+            shoot = Input.GetButtonUp("Fire1");
+            velocity = Mathf.Abs(motor.movement.velocity.x);
         }
         else
         {
             transform.position = Vector3.Lerp(transform.position, realPos, 0.1f);
             transform.rotation = realRot;
+        }
 
-            if (!onGround)
+        if (!onGround)
+        {
+            if (jumping)
             {
-                if (jumping)
-                {
-                    anim.SetBool("jumping", true);
-                }
+                anim.SetBool("jumping", true);
             }
-            else
-            {
-                anim.SetBool("jumping", false);
-            }
+        }
+        else
+        {
+            anim.SetBool("jumping", false);
+        }
 
-            anim.SetFloat("speed", velocity);
+        anim.SetFloat("speed", velocity);
+
+        if (shoot)
+        {
+            PhotonNetwork.Instantiate("orb", projectileSpawn.transform.position, transform.rotation, 0);
         }
 	}
 
@@ -84,7 +82,10 @@ public class NetworkCharacter : Photon.MonoBehaviour {
             // send animation stuff
             stream.SendNext(Mathf.Abs(motor.movement.velocity.x));
             stream.SendNext(motor.grounded);
+
+            // Input info
             stream.SendNext(Input.GetButton("Jump"));
+            stream.SendNext(Input.GetButtonUp("Fire1"));
         }
         else
         {
@@ -95,7 +96,10 @@ public class NetworkCharacter : Photon.MonoBehaviour {
             // receive anim info
             velocity = (float)stream.ReceiveNext();
             onGround = (bool)stream.ReceiveNext();
+
+            // Input info
             jumping = (bool)stream.ReceiveNext();
+            shoot = (bool)stream.ReceiveNext();
         }
     }
 }

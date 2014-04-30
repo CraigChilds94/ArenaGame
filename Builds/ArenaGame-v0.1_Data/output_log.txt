@@ -17,7 +17,7 @@ Platform assembly: C:\Users\Craig\Documents\GitHub\ArenaGame\Builds\ArenaGame-v0
 Loading C:\Users\Craig\Documents\GitHub\ArenaGame\Builds\ArenaGame-v0.1_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
 Platform assembly: C:\Users\Craig\Documents\GitHub\ArenaGame\Builds\ArenaGame-v0.1_Data\Managed\Photon3Unity3D.dll (this message is harmless)
 Loading C:\Users\Craig\Documents\GitHub\ArenaGame\Builds\ArenaGame-v0.1_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
-- Completed reload, in  0.050 seconds
+- Completed reload, in  0.051 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -66,7 +66,7 @@ PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Phot
 (Filename: C Line: 0)
 
 Platform assembly: C:\Users\Craig\Documents\GitHub\ArenaGame\Builds\ArenaGame-v0.1_Data\Managed\Boo.Lang.dll (this message is harmless)
-Received OnSerialization for view ID 2001. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+Received OnSerialization for view ID 2004. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:LogWarning(Object)
 NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
@@ -75,6 +75,1368 @@ ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
 ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
 ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
 PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2005. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2006. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2006 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2006 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2008. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2013. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2014. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2008 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2010 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2011 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2012 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2010 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2011 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2012 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2017. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2016. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2015. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2016 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2017 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2020 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2021 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2020 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2021 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2028. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2026. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2027. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2029 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2047. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2049. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2048. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2044 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2045 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2046 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2048 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2049 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2055. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2054. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2053. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2052 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2052 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2052 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2056 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2062. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2061. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2060. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2059 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2059 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2068. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2067. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2069. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2075. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2074. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2073. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2069 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2071 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2072 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2071 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2072 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2075 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2075 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2077. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2079. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2078. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2083. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2084. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2084 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2084 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2084 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2085. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2085 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2085 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2087 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2088 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2089 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2094. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2093. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2092. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2090 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2091 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2093 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2094 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2096 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2102 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2103 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2106. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2108. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2107. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2113. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2114. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2115. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2104 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2105 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2109 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2110 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2111 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2112 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2113 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2114 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2115 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2116 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2117 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2116 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2117 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2120 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2120 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2127. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2126. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2122 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2123 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2124 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2125 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2132. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2131. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2130. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2128 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2129 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2128 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2129 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2132 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2134 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2141. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2140. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2139. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2138 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2138 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2146. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2145. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Received OnSerialization for view ID 2147. We have no such PhotonView! Ignored this if you're leaving a room. State: Joined
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:OnSerializeRead(Hashtable, PhotonPlayer, Int32, Int16) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:3172)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1662)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:76)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2143 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2144 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2143 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2144 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2146 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
+ 
+(Filename: C Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)2147 on Orb(Clone) 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+NetworkingPeer:RemoveInstantiatedGO(GameObject, Boolean) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2396)
+PhotonNetwork:Destroy(PhotonView) (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:2210)
+Projectile:FixedUpdate() (at C:\Users\Craig\Documents\GitHub\ArenaGame\Assets\Scripts\Projectile.cs:22)
  
 (Filename: C Line: 0)
 
