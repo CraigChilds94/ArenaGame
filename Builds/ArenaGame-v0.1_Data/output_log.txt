@@ -17,7 +17,7 @@ Platform assembly: C:\Users\Craig\Documents\GitHub\ArenaGame\Builds\ArenaGame-v0
 Loading C:\Users\Craig\Documents\GitHub\ArenaGame\Builds\ArenaGame-v0.1_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
 Platform assembly: C:\Users\Craig\Documents\GitHub\ArenaGame\Builds\ArenaGame-v0.1_Data\Managed\Photon3Unity3D.dll (this message is harmless)
 Loading C:\Users\Craig\Documents\GitHub\ArenaGame\Builds\ArenaGame-v0.1_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
-- Completed reload, in  0.051 seconds
+- Completed reload, in  0.050 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
